@@ -11,7 +11,7 @@ public class SecondTest extends TestBase{
 
     @Test
     public void testGroupCreation() throws Exception {
-        new SessionHelper(driver).doLogin(new TestBot("technopolisbot", "technopolis16"));
+        new SessionHelper(driver).doLogin(new TestBot("QA18testbot100", "QA18testbot"));
         new UserMainPageHelper(driver).clickVideosOnToolbat();
         VideoPage videopage = new VideoPage(driver);
         videopage.SelectPopular();
